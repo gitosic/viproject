@@ -36,7 +36,7 @@
             <version>5.2.1.RELEASE</version>
         </dependency>
 
-        <!--Две завис для того, что бы как мин мы могли сказать
+        <!--Две зависимости для того, что бы как мин мы могли сказать
         где будут лежать наши темплейты-->
         <dependency>
             <groupId>org.springframework</groupId>

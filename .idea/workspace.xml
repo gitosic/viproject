@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="demotest:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d036cc7-56aa-4e78-865f-5edaab72d735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/demotest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/hello.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,6 +43,13 @@
         <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -59,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -165,7 +179,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -182,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577448484647</updated>
-      <workItem from="1577448491795" duration="2738000" />
+      <workItem from="1577448491795" duration="5733000" />
     </task>
     <task id="LOCAL-00001" summary="Разделение на два модуля. Тестовый и библиотека">
       <created>1577449649816</created>
@@ -191,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577449649816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Запуск запуск приложения (тестовый модуль) через tomcat">
+      <created>1577452016889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577452016889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,9 +231,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Разделение на два модуля. Тестовый и библиотека" />
-    <option name="LAST_COMMIT_MESSAGE" value="Разделение на два модуля. Тестовый и библиотека" />
+    <MESSAGE value="Запуск запуск приложения (тестовый модуль) через tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Запуск запуск приложения (тестовый модуль) через tomcat" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577452423458">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577452423458" />
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577451898708">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -211,10 +247,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="330" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1577450067092" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1577449649723">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1577452016645">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577449649723" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577452016645" />
     <state x="585" y="350" key="Github.ShareDialog" timestamp="1577448565023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -223,62 +259,62 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="546" y="163" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577448569307" />
-    <state width="958" height="245" key="GridCell.Tab.0.bottom" timestamp="1577451925315">
+    <state width="958" height="245" key="GridCell.Tab.0.bottom" timestamp="1577457665833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577451925315" />
-    <state width="958" height="245" key="GridCell.Tab.0.center" timestamp="1577451925311">
+    <state width="958" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577457665833" />
+    <state width="958" height="245" key="GridCell.Tab.0.center" timestamp="1577457665832">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577451925311" />
-    <state width="958" height="245" key="GridCell.Tab.0.left" timestamp="1577451925309">
+    <state width="958" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577457665832" />
+    <state width="958" height="245" key="GridCell.Tab.0.left" timestamp="1577457665831">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577451925309" />
-    <state width="958" height="245" key="GridCell.Tab.0.right" timestamp="1577451925314">
+    <state width="958" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577457665831" />
+    <state width="958" height="245" key="GridCell.Tab.0.right" timestamp="1577457665833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577451925314" />
-    <state width="958" height="245" key="GridCell.Tab.1.bottom" timestamp="1577451925318">
+    <state width="958" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577457665833" />
+    <state width="958" height="245" key="GridCell.Tab.1.bottom" timestamp="1577457665874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577451925318" />
-    <state width="958" height="245" key="GridCell.Tab.1.center" timestamp="1577451925316">
+    <state width="958" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577457665874" />
+    <state width="958" height="245" key="GridCell.Tab.1.center" timestamp="1577457665834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577451925316" />
-    <state width="958" height="245" key="GridCell.Tab.1.left" timestamp="1577451925316">
+    <state width="958" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577457665834" />
+    <state width="958" height="245" key="GridCell.Tab.1.left" timestamp="1577457665834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577451925316" />
-    <state width="958" height="245" key="GridCell.Tab.1.right" timestamp="1577451925317">
+    <state width="958" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577457665834" />
+    <state width="958" height="245" key="GridCell.Tab.1.right" timestamp="1577457665871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577451925317" />
-    <state width="958" height="245" key="GridCell.Tab.2.bottom" timestamp="1577451925321">
+    <state width="958" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577457665871" />
+    <state width="958" height="245" key="GridCell.Tab.2.bottom" timestamp="1577457665877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577451925321" />
-    <state width="958" height="245" key="GridCell.Tab.2.center" timestamp="1577451925320">
+    <state width="958" height="245" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577457665877" />
+    <state width="958" height="245" key="GridCell.Tab.2.center" timestamp="1577457665876">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1577451925320" />
-    <state width="958" height="245" key="GridCell.Tab.2.left" timestamp="1577451925319">
+    <state width="958" height="245" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1577457665876" />
+    <state width="958" height="245" key="GridCell.Tab.2.left" timestamp="1577457665875">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1577451925319" />
-    <state width="958" height="245" key="GridCell.Tab.2.right" timestamp="1577451925321">
+    <state width="958" height="245" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1577457665875" />
+    <state width="958" height="245" key="GridCell.Tab.2.right" timestamp="1577457665877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="958" height="245" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1577451925321" />
+    <state width="958" height="245" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1577457665877" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1577450488090">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1577450488090" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577449674462">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577452025043">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577449674462" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577452025043" />
     <state x="97" y="147" key="new project wizard" timestamp="1577449510493">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
