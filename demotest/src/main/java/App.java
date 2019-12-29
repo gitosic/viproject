@@ -1,7 +1,3 @@
-import com.vebinar.config.SpringConfig;
-import com.vebinar.service.TestBean;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 //Этот класс нам уже не нужен. Я его не удаляю, а просто коментирую на веки вечные
 public class App {
     /*//Таким образом мы, нажав на play запускам бин и он нам дает name из класса TestBean.

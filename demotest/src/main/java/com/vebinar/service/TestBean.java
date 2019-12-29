@@ -1,7 +1,7 @@
 package com.vebinar.service;
 
 public class TestBean {
-    private String name;
+    /*private String name;
 
     public TestBean() {
     }
@@ -16,5 +16,5 @@ public class TestBean {
 
     public void setName(String name) {
         this.name = name;
-    }
+    }*/
 }
