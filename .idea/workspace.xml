@@ -7,42 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d036cc7-56aa-4e78-865f-5edaab72d735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/usersList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/createUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/editUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/showUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/META-INF/demotest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/config/WebAppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/META-INF/demotest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/config/WebAppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/lib/postgresql-9.0-801.jdbc4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/views/createUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/views/editUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/views/hello.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/views/showUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/views/usersList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/index.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/config/WebAppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/hello.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/hello.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/webapp/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/java/com/vebinar/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/usersList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views/usersList.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/service/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/service/TestBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/classes/com/vebinar/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/config/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/service/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/service/TestBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/WEB-INF/classes/com/vebinar/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/demotest-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demotest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demotest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +105,16 @@
         <item name="vebinar: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vebinar: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="user: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
@@ -156,16 +171,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demotest/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demotest/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/demotest/src/main" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.vebinar.mapper" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demotest/src/main" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.29">
@@ -274,6 +290,20 @@
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@d7a6acf" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@366f6fc3" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -294,7 +324,7 @@
       <workItem from="1577448491795" duration="11248000" />
       <workItem from="1577629498383" duration="4659000" />
       <workItem from="1577634908507" duration="5052000" />
-      <workItem from="1577645621580" duration="2284000" />
+      <workItem from="1577645621580" duration="10890000" />
     </task>
     <task id="LOCAL-00001" summary="Разделение на два модуля. Тестовый и библиотека">
       <created>1577449649816</created>
@@ -317,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577458071574</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Удалось подключить базу данных PostgreSQL и выводить данные на страницу http://localhost:8080/users в виде табличной части.">
+      <created>1577648767933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577648767933</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,9 +365,18 @@
     <MESSAGE value="Разделение на два модуля. Тестовый и библиотека" />
     <MESSAGE value="Запуск запуск приложения (тестовый модуль) через tomcat" />
     <MESSAGE value="Не знаю как описать. Короче получение гет запросом веб страницы --&gt; запуск через tomcat." />
-    <option name="LAST_COMMIT_MESSAGE" value="Не знаю как описать. Короче получение гет запросом веб страницы --&gt; запуск через tomcat." />
+    <MESSAGE value="Удалось подключить базу данных PostgreSQL и выводить данные на страницу http://localhost:8080/users в виде табличной части." />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалось подключить базу данных PostgreSQL и выводить данные на страницу http://localhost:8080/users в виде табличной части." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#SQL_Dialects" timestamp="1577650117486">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1577650117486" />
+    <state x="320" y="115" key="#Template_Data_Languages" timestamp="1577657616362">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Template_Data_Languages/0.0.1440.900@0.0.1440.900" timestamp="1577657616362" />
     <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1577452423458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -339,10 +385,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577637102763" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1577631526818">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1577652949491">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577631526818" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577652949491" />
     <state x="330" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577450067092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -355,10 +401,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1577629986425" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1577458070760">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1577648766497">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577458070760" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577648766497" />
     <state x="585" y="350" key="Github.ShareDialog" timestamp="1577448565023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -367,65 +413,65 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="546" y="163" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577448569307" />
-    <state width="1170" height="186" key="GridCell.Tab.0.bottom" timestamp="1577648627959">
+    <state width="1170" height="186" key="GridCell.Tab.0.bottom" timestamp="1577657889551">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577648627959" />
+    <state width="1170" height="186" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577657889551" />
     <state width="1170" height="186" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1577645374228" />
-    <state width="1170" height="186" key="GridCell.Tab.0.center" timestamp="1577648627940">
+    <state width="1170" height="186" key="GridCell.Tab.0.center" timestamp="1577657889549">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577648627940" />
+    <state width="1170" height="186" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577657889549" />
     <state width="1170" height="186" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1577645374227" />
-    <state width="1170" height="186" key="GridCell.Tab.0.left" timestamp="1577648627939">
+    <state width="1170" height="186" key="GridCell.Tab.0.left" timestamp="1577657889548">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577648627939" />
+    <state width="1170" height="186" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577657889548" />
     <state width="1170" height="186" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1577645374226" />
-    <state width="1170" height="186" key="GridCell.Tab.0.right" timestamp="1577648627958">
+    <state width="1170" height="186" key="GridCell.Tab.0.right" timestamp="1577657889550">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577648627958" />
+    <state width="1170" height="186" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577657889550" />
     <state width="1170" height="186" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1577645374227" />
-    <state width="1170" height="186" key="GridCell.Tab.1.bottom" timestamp="1577648627961">
+    <state width="1170" height="186" key="GridCell.Tab.1.bottom" timestamp="1577657889554">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577648627961" />
+    <state width="1170" height="186" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577657889554" />
     <state width="1170" height="186" key="GridCell.Tab.1.bottom/0.23.1440.819@0.23.1440.819" timestamp="1577645374231" />
-    <state width="1170" height="186" key="GridCell.Tab.1.center" timestamp="1577648627960">
+    <state width="1170" height="186" key="GridCell.Tab.1.center" timestamp="1577657889552">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577648627960" />
+    <state width="1170" height="186" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577657889552" />
     <state width="1170" height="186" key="GridCell.Tab.1.center/0.23.1440.819@0.23.1440.819" timestamp="1577645374229" />
-    <state width="1170" height="186" key="GridCell.Tab.1.left" timestamp="1577648627960">
+    <state width="1170" height="186" key="GridCell.Tab.1.left" timestamp="1577657889552">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577648627960" />
+    <state width="1170" height="186" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577657889552" />
     <state width="1170" height="186" key="GridCell.Tab.1.left/0.23.1440.819@0.23.1440.819" timestamp="1577645374229" />
-    <state width="1170" height="186" key="GridCell.Tab.1.right" timestamp="1577648627961">
+    <state width="1170" height="186" key="GridCell.Tab.1.right" timestamp="1577657889553">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577648627961" />
+    <state width="1170" height="186" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577657889553" />
     <state width="1170" height="186" key="GridCell.Tab.1.right/0.23.1440.819@0.23.1440.819" timestamp="1577645374230" />
-    <state width="1170" height="186" key="GridCell.Tab.2.bottom" timestamp="1577648627964">
+    <state width="1170" height="186" key="GridCell.Tab.2.bottom" timestamp="1577657889557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577648627964" />
+    <state width="1170" height="186" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577657889557" />
     <state width="1170" height="186" key="GridCell.Tab.2.bottom/0.23.1440.819@0.23.1440.819" timestamp="1577645374233" />
-    <state width="1170" height="186" key="GridCell.Tab.2.center" timestamp="1577648627963">
+    <state width="1170" height="186" key="GridCell.Tab.2.center" timestamp="1577657889555">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1577648627963" />
+    <state width="1170" height="186" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1577657889555" />
     <state width="1170" height="186" key="GridCell.Tab.2.center/0.23.1440.819@0.23.1440.819" timestamp="1577645374232" />
-    <state width="1170" height="186" key="GridCell.Tab.2.left" timestamp="1577648627962">
+    <state width="1170" height="186" key="GridCell.Tab.2.left" timestamp="1577657889555">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1577648627962" />
+    <state width="1170" height="186" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1577657889555" />
     <state width="1170" height="186" key="GridCell.Tab.2.left/0.23.1440.819@0.23.1440.819" timestamp="1577645374231" />
-    <state width="1170" height="186" key="GridCell.Tab.2.right" timestamp="1577648627963">
+    <state width="1170" height="186" key="GridCell.Tab.2.right" timestamp="1577657889556">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1170" height="186" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1577648627963" />
+    <state width="1170" height="186" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1577657889556" />
     <state width="1170" height="186" key="GridCell.Tab.2.right/0.23.1440.819@0.23.1440.819" timestamp="1577645374233" />
     <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1577646764494">
       <screen x="0" y="0" width="1440" height="900" />
@@ -443,10 +489,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577641198563" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577458081528">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577658154770">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577458081528" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577658154770" />
+    <state x="486" y="285" width="467" height="322" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1577651642047">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="285" width="467" height="322" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1440.900@0.0.1440.900" timestamp="1577651642047" />
     <state x="456" y="140" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577626771921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

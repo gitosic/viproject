@@ -8,4 +8,13 @@ import java.util.List;
 public interface UserService {
 
     List<User> findAll();
+
+    //Изначально лежало в UserDao
+    void save(User user);
+
+    User getById(int id);
+
+    void update(User user);
+
+    void delete(int id);
 }
