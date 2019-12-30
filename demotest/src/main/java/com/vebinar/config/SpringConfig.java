@@ -5,6 +5,7 @@ import com.vebinar.dao.UserDaoImpl;
 import com.vebinar.service.UserService;
 import com.vebinar.service.UserServiceImpl;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -15,7 +16,11 @@ import java.sql.SQLException;
 
 //После создания этого класса как SpringConfig (Особенность как созд.)с видео 9:17). Все бины описанные в этом классе будут
 //в нашем контексте приложения
+
+//В этом конфиг файле явно бина с типом UserService не описываем
+
 @Configuration//Это конфигурация спринга --> spring-context --> добавит в pom.xml зависимость на spring-context
+@ComponentScan(basePackages = {"com.vebinar.service", "com.vebinar.dao"})//Указываем место, где лефат все компоненты - т.е. не нужно теперь создавать бины
 public class SpringConfig {
 
     //В этом бине мы описываем класс TestBean --> вместо удаления коментирую навсегда
@@ -43,13 +48,17 @@ public class SpringConfig {
         return dataSource;
     }
 
-    @Bean
+    //getUserService используется в dao.
+    //Вместо обозначения этого бина перед названием класса пишем: @ComponentScan(basePackages = "com.vebinar.dao")
+    /*@Bean
     public UserDao getUserDao(){
         return new UserDaoImpl(getJdbcTemplate());
-    }
+    }*/
 
-    @Bean
+    //getUserService используется в controller-е.
+    //Вместо обозначения этого бина перед названием класса пишем: @ComponentScan(basePackages = "com.vebinar.service")
+    /*@Bean
     public UserService getUserService(){
         return new UserServiceImpl();
-    }
+    }*/
 }

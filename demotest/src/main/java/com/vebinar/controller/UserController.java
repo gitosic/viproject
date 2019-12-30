@@ -52,7 +52,7 @@ public class UserController {
     //Добавим форму добавления нового юзера
     //Данные передаются в невидемом виде в response и body
     @PostMapping("/addUser")
-    public String addUser(@ModelAttribute("user") User user){
+    public String addUser(@ModelAttribute("user") User user) throws Exception {
         userService.save(user);
         return "redirect:/users";
     }

@@ -10,7 +10,7 @@ public interface UserService {
     List<User> findAll();
 
     //Изначально лежало в UserDao
-    void save(User user);
+    void save(User user) throws Exception;
 
     User getById(int id);
 

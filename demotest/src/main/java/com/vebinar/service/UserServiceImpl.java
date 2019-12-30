@@ -20,7 +20,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void save(User user) {
+    public void save(User user) throws Exception {
+        //todo Добавляем валидацию
+        if (user.getName().length() > 20){
+            throw new Exception("Максимальная длина имени: 20 символов");
+        }
         userDao.save(user);
     }
 
