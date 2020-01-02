@@ -25,6 +25,6 @@
     </tr>
 </table>
 <br>
-<a href="/index/books">Back</a>
+<a href="/books">Back</a>
 </body>
 </html>

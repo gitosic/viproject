@@ -7,6 +7,6 @@
 <body>
     <h1>Hello books!</h1>
     <br>
-    <a href="/index/hello">Hello page by books!</a>
+    <a href="/hello">Hello page by books!</a>
 </body>
 </html>

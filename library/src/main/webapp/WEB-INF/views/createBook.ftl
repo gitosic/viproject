@@ -6,7 +6,7 @@
 </head>
 <body>
 <#--action - важное место в коде-->
-<form name="book" action="/index/addBook" method="post">
+<form name="book" action="/addBook" method="post">
     <p>Isbn</p>
     <input title="Isbn" type="text" name="isbn">
     <p>Name</p>

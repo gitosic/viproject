@@ -6,7 +6,7 @@
 </head>
 <body>
 <#--action - важное место в коде-->
-<form name="book" action="/index/updateBook" method="post">
+<form name="book" action="/updateBook" method="post">
     <p>Id</p>
     <input title="Id" type="text" name="id" value="${book.id}">
     <p>Isbn</p>

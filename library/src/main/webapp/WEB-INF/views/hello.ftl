@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>I'm first template by library</h1>
-<a href="/index/books">go to Books</a>
+<a href="/books">go to Books</a>
 </body>
 </html>
