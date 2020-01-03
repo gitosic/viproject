@@ -1,6 +1,7 @@
 package ru.library.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +12,7 @@ import ru.library.service.BookService;
 Обрабатывает запросы с темплейтом
  */
 @Controller
-@RequestMapping("/")
+//@RequestMapping("/")
 public class BookController {
 
     @Autowired
@@ -23,6 +24,7 @@ public class BookController {
     }
 
     @GetMapping("/hello")
+    @Secured( "ROLE_ANYROLE" )
     public String hello(){
         return "hello";
     }
