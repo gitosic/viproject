@@ -18,7 +18,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     public ViewResolver getViewResolver(){
         FreeMarkerViewResolver freeMarkerViewResolver = new FreeMarkerViewResolver();//в роли ViewResolver используем FreeMarker
         freeMarkerViewResolver.setOrder(1);//Настроили порядок, когда он будет загружаться
-        freeMarkerViewResolver.setSuffix(".ftl");//все файлы с расширением ftl
+        freeMarkerViewResolver.setSuffix(".jsp");//все файлы с расширением ftl
         freeMarkerViewResolver.setPrefix("");//сейчас он нам не нужен, так как есть второй бин
         return freeMarkerViewResolver;
     }
