@@ -16,8 +16,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/", "/base").permitAll()
-                //.antMatchers("/", "/base", "/test").permitAll()
+                .antMatchers("/base").permitAll()
+                .antMatchers("/test").hasRole("USER")
+                .antMatchers("/hello").hasRole("USER")
+                .antMatchers("/bookslist").hasRole("ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -32,7 +34,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .inMemoryAuthentication()
-                .withUser("user").password("password").roles("USER");
+                .withUser("user").password("password").roles("USER")
+                .and()
+                .withUser("admin").password("password").roles("ADMIN");
     }
 
     @Bean

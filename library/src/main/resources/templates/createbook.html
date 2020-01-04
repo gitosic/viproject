@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Create book page</title>
+    </head>
+    <body>
+    <!--action - важное место в коде-->
+    <form name="book" action="/addBook" method="post">
+        <p>Isbn</p>
+        <input title="Isbn" type="text" name="isbn">
+        <p>Name</p>
+        <input title="Name" type="text" name="name">
+        <p>Author</p>
+        <input title="Author" type="text" name="author">
+        <input type="submit" value="OK">
+    </form>
+    <br>
+    <a href="/base">base page</a>
+    </body>
+</html>

@@ -3,9 +3,11 @@ package ru.library.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
+import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
@@ -22,10 +24,12 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/index").setViewName("index");
         registry.addViewController("/").setViewName("index");
-        registry.addViewController("/hello").setViewName("hello");
-        registry.addViewController("/test").setViewName("test");//Это должно быть
+        registry.addViewController("/hello").setViewName("hello.html");
+        registry.addViewController("/test").setViewName("test.html");//Это должно быть
+        registry.addViewController("/test2").setViewName("test2.html");//Это должно быть
         registry.addViewController("/bookslist").setViewName("bookslist.html");//Это должно быть
-        registry.addViewController("/login").setViewName("login");
+        registry.addViewController("/createbook").setViewName("createbook.html");//Это должно быть
+        registry.addViewController("/login").setViewName("login.html");
     }
 
     @Bean

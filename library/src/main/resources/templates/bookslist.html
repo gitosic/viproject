@@ -4,7 +4,6 @@
         <title>Spring Boot Simple Example</title>
     </head>
     <body>
-    <#--Выводим список книг-->
     <h1>Books list</h1>
     <table>
         <tr>
@@ -22,10 +21,8 @@
             <td><a href="/delete/${book.id}">Delete</a></td>
             <td><a href="/update/${book.id}">Update</a></td>
         </tr>
-        </#list>
+    </#list>
     </table>
     <a href="/addBook">Create book</a>
-    <br>
-    <a href="/base">base page</a>
     </body>
 </html>
