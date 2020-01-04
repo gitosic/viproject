@@ -1,7 +1,6 @@
 package ru.library.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -24,16 +23,22 @@ public class BookController {
     }
 
     @GetMapping("/hello")
-    @Secured( "ROLE_ANYROLE" )
+    //@Secured( "ROLE_ANYROLE" )
     public String hello(){
         return "hello";
     }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
 
     //Model - это грубо говоря мапа которая нужна для передачи данных между view и контроллером
     @GetMapping("/books")
     public String getAllBooks(Model model){
         model.addAttribute("books", bookService.findAll());
-        return "booksList";
+        return "bookslist.html";
     }
 
     @GetMapping("/book/{id}")

@@ -1,4 +1,4 @@
-package ru.library.config;
+package com.vebinar.garbage;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -22,9 +22,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/index").setViewName("index");
         registry.addViewController("/").setViewName("index");
-        registry.addViewController("/hello").setViewName("hello");
-        registry.addViewController("/test").setViewName("test");//Это должно быть
-        registry.addViewController("/bookslist").setViewName("bookslist.html");//Это должно быть
+        //registry.addViewController("/hello").setViewName("hello");
         registry.addViewController("/login").setViewName("login");
     }
 
