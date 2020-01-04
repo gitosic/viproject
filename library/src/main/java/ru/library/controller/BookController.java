@@ -12,7 +12,7 @@ import ru.library.service.BookService;
 Обрабатывает запросы с темплейтом
  */
 @Controller
-//@RequestMapping("/")
+@RequestMapping
 public class BookController {
 
     @Autowired
