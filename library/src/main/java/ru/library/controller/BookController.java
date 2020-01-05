@@ -2,6 +2,7 @@ package ru.library.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.core.annotation.CurrentSecurityContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -24,14 +25,14 @@ public class BookController {
     }
 
     @GetMapping("/hello")
-    @Secured( "ROLE_1" )
+    @Secured( "USER" )
     public String hello(){
         return "hello";
     }
 
     @GetMapping("/login")
     public String login(){
-        return "login.html";
+        return "login";
     }
 
 
